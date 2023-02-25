@@ -100,7 +100,7 @@ body > div:is(:first-of-type, :last-of-type) {
 }
 
 .book-placeholder {
-  --size: 70vmin;
+  --size: 60vmin;
   position: fixed;
   height: var(--size);
   aspect-ratio: 3 / 4;
