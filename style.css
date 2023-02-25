@@ -100,7 +100,7 @@ body > div:is(:first-of-type, :last-of-type) {
 }
 
 .book-placeholder {
-  --size: 40vmin;
+  --size: 80vmin;
   position: fixed;
   height: var(--size);
   aspect-ratio: 3 / 4;
@@ -121,7 +121,7 @@ body > div:is(:first-of-type, :last-of-type) {
   transform-style: preserve-3d;
   perspective: 2500px;
   perspective-origin: -25% 50%;
-  scale: 0.25;
+  scale: 0.75;
 }
 
 .book__page {
@@ -216,3 +216,7 @@ body > div:is(:first-of-type, :last-of-type) {
   font-size: calc(var(--size) * 0.025);
   color: hsl(0 0% 0% / 0.3);
 }
+
+
+/* Update */
+
