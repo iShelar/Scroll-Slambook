@@ -25,12 +25,11 @@ body {
 }
 
 .logo {
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
-  height: 15%;
-  rotate: -25deg;
-  opacity: 0.65;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    height: 15%;
+    opacity: 0.85;
 }
 
 li,
@@ -217,6 +216,13 @@ body > div:is(:first-of-type, :last-of-type) {
   color: hsl(0 0% 0% / 0.3);
 }
 
+h1 {
+    font-size: 24px;
+}
+
+.page__side {
+    padding: 2rem 2.8rem;
+}
 
 /* Update */
 
